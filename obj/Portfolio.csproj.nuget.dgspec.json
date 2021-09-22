@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tylop\\source\\repos\\Portfolio\\Portfolio.csproj": {}
+    "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tylop\\source\\repos\\Portfolio\\Portfolio.csproj": {
+    "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tylop\\source\\repos\\Portfolio\\Portfolio.csproj",
+        "projectUniqueName": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "C:\\Users\\tylop\\source\\repos\\Portfolio\\Portfolio.csproj",
+        "projectPath": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj",
         "packagesPath": "C:\\Users\\tylop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tylop\\source\\repos\\Portfolio\\obj\\",
+        "outputPath": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tylop\\AppData\\Roaming\\NuGet\\NuGet.Config",
