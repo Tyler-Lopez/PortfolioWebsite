@@ -23,6 +23,11 @@ a, .btn-link {
     /*filter: alpha(opacity=25) progid:DXImageTransform.Microsoft.Alpha(opacity=25);*/
 }
 
+.badge-tag {
+    background-color: #00274C;
+    color: white;
+}
+
 .texture-background {
     background-color: #00274c;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffcb05' fill-opacity='0.9'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
