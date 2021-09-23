@@ -75,6 +75,13 @@ using Portfolio.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\Pages\Index.razor"
+using BlazorAnimate;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
