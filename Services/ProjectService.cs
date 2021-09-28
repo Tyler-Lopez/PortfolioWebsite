@@ -37,7 +37,7 @@ namespace Portfolio.Services
                 new Project
                 {
                     Name = "Speed Card Game",
-                    Description = "This repository is my primary focus at present and an excellent exercise in mastering the Canvas composable. The long-term goal is to create a local multi-player game where two users may play the card game of speed against one another. The featured picture is an early-development preview towards how suit shapes are being drawn; each as a solution to the tangram puzzle.",
+                    Description = "This repository is my primary focus at present and an engaging exercise in mastering the Canvas composable. The long-term goal is to create a local multi-player game where two users may play the card game of speed against one another. The featured picture is an early-development preview towards how suit shapes are being drawn; each as a solution to the tangram puzzle.",
                     GithubUrl = "https://github.com/Tyler-Lopez/SpeedCardGame",
                     PictureUrl = "https://user-images.githubusercontent.com/77797048/135025444-b15a5620-3468-49e3-b12f-ada1b2216e99.png",
                     Tags = new List<string>
