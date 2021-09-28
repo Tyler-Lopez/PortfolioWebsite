@@ -102,6 +102,10 @@ a, .btn-link {
     background-color: #00274C;
     color: white;
 }
+    .badge-tag:hover {
+        background-color: #18538c;
+        color: white;
+    }
 
 .texture-background {
     background-color: #00274c;

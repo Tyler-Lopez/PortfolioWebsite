@@ -27,13 +27,13 @@
         else ActiveIndex--;
     }
 }
-<div class="jumbotron texture-background mb-0">
+<div class="jumbotron texture-background mb-0 rounded-0">
     <div class="background-grey p-4 mb-0 rounded-lg shadow-lg border border-dark">
         <!--<p class="lead"></p>
         <hr class="my-4"> -->
         <div class="row">
             <div class="col-lg-12 col-xl-7 text-md-center">
-                <h1 style="color: #00274C; font-weight: bolder; font-size: 4rem; font-family: 'Roboto Slab', serif;">Hi there.</h1>
+                <h1 class="my-4" style="color: #00274C; font-weight: bold; font-size: 4.0rem; font-family: 'Roboto Slab', serif;">Hi there.</h1>
                 <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">I am a motivated to succeed, Early-Career Android Developer with a proven record for creativity, learning new technologies efficiently, and excellent communication with stakeholders.</p>
                 <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
                     After earning my B.S. in Chemistry from the University of Michigan, my career quickly pivoted from laboratory work towards information technology as a SharePoint Consultant due to a found love for developing intranet sites.
@@ -42,11 +42,11 @@
                 <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
                     I have numerous hobbyist projects, some of which are published on the Google Play Store. Personal development is something which I take very seriously and I follow the latest best practices in Android Development by investing substantial time in myself for education.
                 </p>
-                <img width="400rem" class="mt-4 mb-3" fill="#00274C;" src="Siggy.svg" />
+                <img width="300rem" class="mt-4 mb-3" fill="#00274C;" src="Siggy.svg" />
             </div>
             <div class="col-lg-12 col-xl-5 justify-content-center text-center">
 
-                <img class="rounded-circle shadow-lg p-0 m-5" style="border: 0.7rem solid #FFCB05;" width="400rem" height="auto" src="headshot.jpg" />
+                <img class="rounded-circle shadow-md p-0 m-5" style="border: 0.7rem solid #FFCB05;" width="400rem" height="auto" src="headshotthumb.png" />
             </div>
         </div>
     </div>
@@ -54,15 +54,15 @@
 </div>
 
 <div class="row mt-0 p-4" style="background-color: #FFCB05;">
-    <div class="col-8 p-4 m-2 bg-light rounded-lg shadow-lg border border-white">
-        <h1 style="color: #00274C; font-weight: bolder; font-size: 4rem; font-family: 'Roboto Slab', serif;">My projects.</h1>
-        <div class="row py-4">
-            <div class="col-5 py-2 px-2 text-center justify-content-center">
-                <svg class="button-next swing my-2" @onclick="SafeDecrement"  xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
-                <img width="250rem" src="@Projects[ActiveIndex].PictureUrl"/>
-                <svg class="button-next swing my-2" @onclick="SafeIncrement" width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+    <div class="col-lg-8 p-4 m-2 bg-light rounded-lg shadow-lg border border-white">
+        <div class="row">
+            <div class="col-md-5 px-2 text-center justify-content-center">
+                <h1 class="mb-3" style="color: #00274C; font-weight: bolder; font-size: 4rem; font-family: 'Roboto Slab', serif;">My projects.</h1>
+                <svg class="button-next swing my-2" @onclick="SafeDecrement" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" /></svg>
+                <img width="250rem" src="@Projects[ActiveIndex].PictureUrl" />
+                <svg class="button-next swing my-2" @onclick="SafeIncrement" width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" /></svg>
             </div>
-            <div class="col-7">
+            <div class="col-md-7 p-4 my-4">
                 <h2 style="color: #00274C; font-weight: bold; font-size: 2.5rem; font-family: 'Roboto Slab', serif;">@Projects[ActiveIndex].Name</h2>
                 <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
                     @Projects[ActiveIndex].Description
@@ -72,29 +72,33 @@
                         <i class="fab fa-github"></i> See it on GitHub
                     </a>
                 </p>
-                
+
                 <h4>
-                @{
-                        foreach (string tag in Projects[ActiveIndex].Tags)
+                    @{
+                        foreach (string[] tag in Projects[ActiveIndex].Tags)
                         {
-                            <span class="badge badge-tag p-2 mx-0 my-1">@tag</span>
+                                        <a href="@tag[0]"><span class="badge badge-tag p-2 mx-0 my-1">@tag[1]</span></a>
                         }
-              } </h4>
+                    }
+                </h4>
             </div>
         </div>
     </div>
 
-    <div class="col p-4 m-2 bg-light rounded-lg shadow-lg border border-white foo">
-
-        <h1 style="color: #00274C; font-weight: bolder; font-size: 4rem; font-family: 'Roboto Slab', serif;">Contact me.</h1>
-        <div class="row py-4">
+    <div class="col-lg p-4 m-2 bg-light rounded-lg shadow-lg border border-white foo">
+        <div class="row">
             <div class="col">
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tylerlopez@gmail.com">tylerlopezmi@gmail.com</a></p>
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tlopez4@emich.edu">tlopez4@emich.edu</a></p>
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-phone-square-alt"></i> (989) 964-8982</p>
+                <div class="row-12">
+                    <h1 class="mb-3" style="color: #00274C; font-weight: bolder; font-size: 4rem; font-family: 'Roboto Slab', serif;">Contact me.</h1>
+                </div>
+                <div class="row-12">
+                    <div class="col">
+                        <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tylerlopez@gmail.com">tylerlopezmi@gmail.com</a></p>
+                        <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tlopez4@emich.edu">tlopez4@emich.edu</a></p>
+                        <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-phone-square-alt"></i> (989) 964-8982</p>
+                    </div>
+                </div>
             </div>
-        </div>
-
-
+            </div>
     </div>
 </div>

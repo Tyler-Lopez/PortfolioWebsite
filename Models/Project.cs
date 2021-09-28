@@ -17,7 +17,7 @@ namespace Portfolio.Models
         public string GithubUrl { get; set; }
         [JsonPropertyName("img")]
         public string PictureUrl { get; set; }
-        public List<string> Tags { get; set; }
+        public List<string[]> Tags { get; set; }
 
         public override string ToString() => JsonSerializer.Serialize<Project>(this);
 
