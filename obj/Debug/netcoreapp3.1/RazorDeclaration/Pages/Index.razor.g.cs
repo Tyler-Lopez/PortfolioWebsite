@@ -82,6 +82,20 @@ using BlazorAnimate;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\Pages\Index.razor"
+using Portfolio.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\Pages\Index.razor"
+using Portfolio.Services;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +104,33 @@ using BlazorAnimate;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 8 "C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\Pages\Index.razor"
+ 
+    public static ProjectService ProductService = new ProjectService();
+
+    public List<Project> Projects { get; private set; }
+
+    public int ActiveIndex = 0;
+    protected override async Task OnInitializedAsync()
+    {
+        Projects = ProductService.GetAll();
+    }
+
+    public void SafeIncrement()
+    {
+        if (ActiveIndex + 1 < Projects.Count) ActiveIndex++;
+        else ActiveIndex = 0;
+    }
+    public void SafeDecrement()
+    {
+        if (ActiveIndex - 1 < 0) ActiveIndex = Projects.Count - 1;
+        else ActiveIndex--;
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

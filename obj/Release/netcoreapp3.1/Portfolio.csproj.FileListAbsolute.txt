@@ -51,3 +51,5 @@ C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\Portfolio.dll
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\Portfolio.pdb
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\Portfolio.genruntimeconfig.cache
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\bin\Release\netcoreapp3.1\wwwroot\json.json
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\bin\Release\netcoreapp3.1\Data\json.json

@@ -101,4 +101,6 @@ C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Debug\netcoreapp3.1\P
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Debug\netcoreapp3.1\Portfolio.csproj.CopyComplete
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\bin\Debug\netcoreapp3.1\Portfolio.StaticWebAssets.xml
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\bin\Debug\netcoreapp3.1\BlazorAnimate.dll
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\bin\Debug\netcoreapp3.1\Data\json.json
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Debug\netcoreapp3.1\Portfolio.csprojAssemblyReference.cache
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\bin\Debug\netcoreapp3.1\wwwroot\json.json
