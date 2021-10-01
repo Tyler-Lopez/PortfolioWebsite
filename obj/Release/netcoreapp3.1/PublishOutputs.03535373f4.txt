@@ -14,6 +14,11 @@ C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\site.css
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot.jpg
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot1.png
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot2.png
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot3.png
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot4.png
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshotthumb.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\json.json
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Siggy.svg
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json

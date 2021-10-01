@@ -403,25 +403,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tyler\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\tylop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tyler\\Documents\\GitHub\\PortfolioWebsite\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\Tyler\\Documents\\GitHub\\PortfolioWebsite\\Portfolio.csproj",
-      "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tyler\\Documents\\GitHub\\PortfolioWebsite\\obj\\",
+      "projectPath": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj",
+      "packagesPath": "C:\\Users\\tylop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\tylop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -461,12 +456,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.18, 3.1.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -475,7 +464,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.207\\RuntimeIdentifierGraph.json"
       }
     }
   }

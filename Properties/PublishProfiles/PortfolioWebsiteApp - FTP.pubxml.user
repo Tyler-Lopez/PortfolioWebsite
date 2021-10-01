@@ -7,7 +7,111 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFjHfBq0tUUa0g5VokQbNpAAAAAACAAAAAAAQZgAAAAEAACAAAAC2OtTx8l4iho93uLSMtX8JIJooejMC7JAbHCVDHf0/QwAAAAAOgAAAAAIAACAAAAAktyb8pPOoVsxOW7ZfJIt3AOzmKw/AXbL0gXLLfDYV9oAAAABU5mBE/J5NxqUzPTQ1i74xfjGzLWM/OU8mu+Y0eMXctfpUUhU7vOgSD7g5szO9Fz2nGarcvYRRDCtjOCDu/d/fugwtN5j+kowM25cabUBWZGxz4VTN1ELG7uwSGyWqswa1sXAOZRGsjdM84PWCN6v6KtEU+Sem2mQRzbZ9uJIBREAAAACMIK1eXci+P5n5EMivFrcPRrxn1ODLHSqrNEUQGxfqkOguFxeZp2iQcYEzyPn31LfOepnjuinN+EGMBx0wqcJT</EncryptedPassword>
-    <History>False|2021-09-28T18:36:41.0038201Z;False|2021-09-28T14:23:12.0933028-04:00;</History>
+    <History>False|2021-10-01T05:01:57.1238371Z;False|2021-09-28T14:36:41.0038201-04:00;False|2021-09-28T14:23:12.0933028-04:00;</History>
     <_PublishTargetUrl>ftp://waws-prod-dm1-197.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="BlazorAnimate.dll">
+      <publishTime>09/10/2020 14:11:52</publishTime>
+    </File>
+    <File Include="Data/json.json">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="Portfolio.deps.json">
+      <publishTime>10/01/2021 01:01:04</publishTime>
+    </File>
+    <File Include="Portfolio.exe">
+      <publishTime>10/01/2021 01:01:04</publishTime>
+    </File>
+    <File Include="Portfolio.pdb">
+      <publishTime>10/01/2021 01:01:04</publishTime>
+    </File>
+    <File Include="Portfolio.runtimeconfig.json">
+      <publishTime>10/01/2021 01:01:04</publishTime>
+    </File>
+    <File Include="Portfolio.Views.pdb">
+      <publishTime>10/01/2021 01:01:04</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/01/2021 01:01:06</publishTime>
+    </File>
+    <File Include="wwwroot/AndroidLogo.png">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css.map">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/FONT-LICENSE">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.eot">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.otf">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.svg">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.ttf">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.woff">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/ICON-LICENSE">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/README.md">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/headshot.jpg">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/headshot1.png">
+      <publishTime>10/01/2021 00:57:02</publishTime>
+    </File>
+    <File Include="wwwroot/headshot2.png">
+      <publishTime>10/01/2021 00:57:02</publishTime>
+    </File>
+    <File Include="wwwroot/headshot3.png">
+      <publishTime>10/01/2021 00:57:02</publishTime>
+    </File>
+    <File Include="wwwroot/headshot4.png">
+      <publishTime>10/01/2021 00:57:02</publishTime>
+    </File>
+    <File Include="wwwroot/headshotthumb.png">
+      <publishTime>10/01/2021 00:57:02</publishTime>
+    </File>
+    <File Include="wwwroot/json.json">
+      <publishTime>10/01/2021 00:57:02</publishTime>
+    </File>
+    <File Include="wwwroot/Siggy.svg">
+      <publishTime>10/01/2021 00:57:01</publishTime>
+    </File>
+    <File Include="wwwroot/_content/BlazorAnimate/aos.css">
+      <publishTime>12/15/2019 10:54:56</publishTime>
+    </File>
+    <File Include="wwwroot/_content/BlazorAnimate/blazorAnimateInterop.js">
+      <publishTime>11/04/2019 16:11:20</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
