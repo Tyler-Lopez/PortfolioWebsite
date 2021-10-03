@@ -37,12 +37,12 @@ namespace Portfolio.Services
                 new Project
                 {
                     Name = "SprintLogger",
-                    Description = "This Android application in development will allow the user to track their fastest 400 m sprint times day-to-day. This application serves as a personal exploration into working with the Android API, specifically the GPS location service. The user should open the app, push start, then \"go fast\"! In the featured early-development preview picture, the user has just walked 400 m at approximately the average human pace of 1.4 meter/second - a very slow 400 m sprint!",
+                    Description = "This Android application in-development will allow the user to track their fastest 400 m sprint times day-to-day. This application serves as a personal exploration in both working with the Android Locations API and in persisting user data with Room. The user should open the app, click \"Start\", then simply run 400 meters. Throughout the run, their current distance, speed, and the amount of seconds which have yet elapsed will be displayed. If the user has not yet sprinted once today, they are encouraged to do so. Data is persisted, so users may review their historical sprints. By default, the \"Sprint History\" is sorted ascending by seconds it took them to run 400 meters.",
                     GithubUrl = "https://github.com/Tyler-Lopez/SprintLogger",
-                    PictureUrl = "https://user-images.githubusercontent.com/77797048/135566877-61daeb4a-b2b2-45ec-9c88-d8aff4bbe20f.png",
+                    PictureUrl = "https://user-images.githubusercontent.com/77797048/135735284-01f5575f-918d-42f3-8d66-b5949f4435f5.png",
                     Tags = new List<string[]>
                     {
-                        new string[]{ "https://kotlinlang.org/docs/home.html", "Kotlin"}, new string[]{ "https://developer.android.com/jetpack/compose", "Jetpack Compose"}, new string[]{ "https://medium.com/google-developer-experts/exploring-jetpack-compose-canvas-the-power-of-drawing-8cc60815babe", "Canvas"}, new string[]{ "https://developer.android.com/training/location", "Location API"},
+                        new string[]{ "https://kotlinlang.org/docs/home.html", "Kotlin"}, new string[]{ "https://developer.android.com/jetpack/compose", "Jetpack Compose"}, new string[]{ "https://medium.com/google-developer-experts/exploring-jetpack-compose-canvas-the-power-of-drawing-8cc60815babe", "Canvas"}, new string[]{ "https://developer.android.com/training/location", "Location API"}, new string[]{ "https://developer.android.com/jetpack/androidx/releases/room", "Room-Persistence Library"}
                     }
                 },
                 new Project
