@@ -1,5 +1,9 @@
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\Portfolio.exe
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\AndroidLogo.png
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\android_head.png
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\android_head.png
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\android_head_1_20.png
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\android_head_background.png
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\bootstrap\bootstrap.min.css
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\bootstrap\bootstrap.min.css.map
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\open-iconic\FONT-LICENSE
@@ -20,6 +24,10 @@ C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTm
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot4.png
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshotthumb.png
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\json.json
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_flashcards.gif
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_numerosity.png
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_speedcard.png
+C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_sprintlogger.png
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Siggy.svg
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
 C:\Users\Tyler\Documents\GitHub\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
