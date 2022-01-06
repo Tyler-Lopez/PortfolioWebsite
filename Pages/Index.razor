@@ -33,16 +33,17 @@
         <hr class="my-4"> -->
         <div class="row">
             <div class="col-lg-12 col-xl-7 p-4 text-md-center">
-                <h1 class="mb-3" style="letter-spacing: -0.10rem; color: #00274C; font-weight: 500; font-size: 4rem; font-family: 'Roboto', serif;">Hi there,</h1>
-                <div class ="px-4">
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">I am a motivated to succeed, Early-Career Android Developer with a proven record for creativity, learning new technologies efficiently, and excellent communication with stakeholders.</p>
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
-                    After earning my B.S. in Chemistry from the University of Michigan, my career quickly pivoted from laboratory work towards information technology as a SharePoint Consultant due to a found love for developing intranet sites.
-                    In 2020, I committed towards branching-out and the pursuit of my passion of software engineering, enrolling in Eastern Michigan University's Computer Science program - maintaining a 4.0 GPA.
-                </p>
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
-                    I have numerous hobbyist projects, some of which are published on the Google Play Store. Personal development is something which I take very seriously and, though I have much to learn, I follow the latest best practices in Android Development by investing substantial time in myself for education.
-                </p>
+                <h2 style="color: #00274C; font-weight: 700; font-size: 2.5rem; font-family: 'Roboto', serif;">Hi there,</h2>
+                <div class="px-4">
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">I am an early-career Android developer with a unique background and a proven record for creativity and learning new technologies efficiently.</p>
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
+                        After earning a chemistry degree from U of M, in my laboratory work I found that I was competent at and immensely enjoyed providing internal IT support and developing intranet sites.
+                        Over time, I opted to pivot my career and enrolled in the computer science program at EMU, where I currently maintain a 4.0 GPA.
+                    </p>
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
+                        I have multiple hobbyist passion projects, many of which are Google Play Store-published Android Applications.
+                        This Summer, I will joining Strava as an Android Engineer Intern - an opportunity I eagerly await.
+                    </p>
                     <img width="400rem" class="mt-4" fill="#00274C;" src="Siggy3.svg" />
                 </div>
             </div>
@@ -56,51 +57,51 @@
 </div>
 
 <div class="row  justify-content-center mt-0 p-4" style="background-color: #FFCB05;">
-    <div class="col-xl-8 p-4 m-2  bg-white rounded-lg shadow-lg sketchyWhite">
+    <div class="col-xl-8 p-4 m-2   rounded-lg shadow-lg bg-white sketchyWhite">
         <div class="row">
-            <div class="col-md-5 pl-2 pr-4 text-center justify-content-center">
-                <h1 class="mb-3 mt-2" style="letter-spacing: -0.10rem; color: #00274C; font-weight: 500; font-size: 4rem; font-family: 'Roboto', serif;">My Projects.</h1>
+            <div class="col-md-5 pl-2 pr-4 text-center justify-content-center" style="display: flex; align-items: center">
+                <!--     <h1 class="mb-3 mt-2" style="letter-spacing: -0.10rem; color: #00274C; font-weight: 500; font-size: 4rem; font-family: 'Roboto', serif;">My Projects.</h1> -->
                 <svg class="button-next swing my-2" @onclick="SafeDecrement" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" /></svg>
                 <img style="border: 3px solid #00274c;" width="250rem" src="@Projects[ActiveIndex].PictureUrl" />
                 <svg class="button-next swing my-2" @onclick="SafeIncrement" width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" /></svg>
             </div>
             <div class="col-md-7 p-4 my-4 align-content-center justify-content-center">
-                <h2 style="color: #00274C; font-weight: 400; font-size: 2.5rem; font-family: 'Roboto', serif;">@Projects[ActiveIndex].Name</h2>
+                <h2 style="color: #00274C; font-weight: 700; font-size: 2.5rem; font-family: 'Roboto', serif;">@Projects[ActiveIndex].Name</h2>
                 <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
                     @Projects[ActiveIndex].Description
                 </p>
-                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;">
-                    <a href="@Projects[ActiveIndex].GithubUrl">
-                        <i class="fab fa-github"></i> See it on GitHub
-                    </a>
-                </p>
-
-                <h4>
+                <div style="font-family: 'Roboto', sans-serif; font-size: 4.0rem; display: flex; align-items: center">
                     @{
-                        foreach (string[] tag in Projects[ActiveIndex].Tags)
+                        if (@Projects[ActiveIndex].PlayStoreUrl != null)
                         {
-                            <a href="@tag[0]"><span class="badge badge-tag p-2 mx-0 my-1">@tag[1]</span></a>
+                            <a href='@Projects[ActiveIndex].PlayStoreUrl'><img alt='Get it on Google Play' height="75" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
                         }
                     }
-                </h4>
+                    <a href="@Projects[ActiveIndex].GithubUrl">
+                        <img height="50" src="GitHub_Logo.png">
+                    </a>
+
+
+                </div>
+                <!-- <h4>
+         @{
+             foreach (string[] tag in Projects[ActiveIndex].Tags)
+             {
+                 <a href="@tag[0]"><span class="badge badge-tag p-2 mx-0 my-1">@tag[1]</span></a>
+             }
+         }
+     </h4>-->
             </div>
         </div>
     </div>
 
     <div class="col-xl p-4 m-2 rounded-lg shadow-lg sketchy foo ">
         <div class="row">
-            <div class="col">
-                <div class="row-12">
-                    <h1 class="mb-3 mt-2" style="letter-spacing: -0.10rem; color: #00274C; font-weight: 500; font-size: 4rem; font-family: 'Roboto', serif;">Contact Me.</h1>
-                </div>
-                <div class="row-12">
-                    <div class="col">
-                        <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tylerlopez@gmail.com">tylerlopezmi@gmail.com</a></p>
-                        <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tlopez4@emich.edu">tlopez4@emich.edu</a></p>
+            <div class="col p-4 my-4">
+                    <h2 style="color: #00274C; font-weight: 700; font-size: 2.5rem; font-family: 'Roboto', serif;">Contact Me</h2>
+                <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-envelope"></i> <a href="mailto: tylerlopez@gmail.com">tylerlopezmi@gmail.com</a></p>
                         <p style="font-family: 'Roboto', sans-serif; font-size: 1.5rem;"><i class="fas fa-phone-square-alt"></i> (989) 964-8982</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
