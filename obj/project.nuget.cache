@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fMQiUH31dtzER4rwbRTTUDURjNEhhupm06aCVnNxnhYlYfAlgO5jTQKi6ljaG/djhwaALR3VFft87vIkD4TXJw==",
+  "dgSpecHash": "3gPMMXff/o8/4UXoaolOUhSeOhN6vCvqCS2itVK8fmn8sRmPH8+lT4kjZG3rXT7MwVNJzvC7YTo8dAGVXQT9Dg==",
   "success": true,
   "projectFilePath": "C:\\Users\\tylop\\source\\repos\\BeckyBlog\\PortfolioWebsite\\Portfolio.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\tylop\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
     "C:\\Users\\tylop\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
     "C:\\Users\\tylop\\.nuget\\packages\\microsoft.jsinterop\\3.1.0\\microsoft.jsinterop.3.1.0.nupkg.sha512",
-    "C:\\Users\\tylop\\.nuget\\packages\\minver\\2.0.0\\minver.2.0.0.nupkg.sha512"
+    "C:\\Users\\tylop\\.nuget\\packages\\minver\\2.0.0\\minver.2.0.0.nupkg.sha512",
+    "C:\\Users\\tylop\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }
