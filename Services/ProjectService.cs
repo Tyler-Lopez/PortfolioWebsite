@@ -13,7 +13,7 @@ namespace Portfolio.Services
                 {
                     Name = "Activity Art",
                     Description =
-                        "This is an Android Application which queries the Strava API to generate highly-modular, aesthetic prints of all of an athlete's activities. " +
+                        "This is an Android Application which queries the Strava API to generate highly-modular, aesthetic prints of all an athlete's activities. " +
                         "Filters include distance, year, month, gear, and activity type! Polylines, the series of coordinates that represent a workout, are decoded and drawn using the Android Canvas - one of my favorite tools to work with."
                     ,
                     GithubUrl = "https://github.com/Tyler-Lopez/StravaActivityArt",

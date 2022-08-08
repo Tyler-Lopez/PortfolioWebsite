@@ -26,7 +26,9 @@ C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshot4.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\headshotthumb.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\json.json
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_activityart.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_flashcards.gif
+C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_flashcards.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_numerosity.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_speedcard.png
 C:\Users\tylop\source\repos\BeckyBlog\PortfolioWebsite\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\project_sprintlogger.png
